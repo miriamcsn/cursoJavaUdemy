@@ -10,9 +10,11 @@ public class AprendendoMetodosEstaticosV2 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         Calculator calc = new Calculator();
-        // note que aqui eu precisei instanciar um objeto da classe Calculator,
-        // uma vez que ela não é estática, para os métodos que defini nela
-        // funcionarem aqui quando chamados.
+/*
+        note que aqui eu precisei instanciar um objeto da classe Calculator,
+        uma vez que ela não é estática, para que os métodos que defini nela
+        possam funcionar aqui quando forem chamados.
+*/
 
         System.out.print("Enter radius: ");
         double radius = sc.nextDouble();

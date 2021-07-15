@@ -47,12 +47,14 @@ public class ProductV3 {
         return quantity;
     }
 
-    /*public void setQuantity(int quantity) {
+    /*
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }*/
-    // comentado porque por uma regra de negócio, não é interessante permitir ao usuario modificar
-    //a quantidade de produtos no estoque. Ele só é atualizado automaticamente quando alguma operação for feita.
-
+    }
+    comentado porque por uma regra de negócio, não é interessante permitir ao usuario modificar
+    a quantidade de produtos no estoque. Ele só é atualizado automaticamente quando alguma operação
+    for feita.
+    */
 
     // 3. OUTROS MÉTODOS
 
@@ -68,7 +70,8 @@ public class ProductV3 {
         this.quantity -= quantity;
     }
 
-    public String toString() {  // fiz isso aqui na devtalk com daniel -- override -- não me lembro... :(
+    @Override
+    public String toString() {
         return 	name
                 + ", $"
                 + String.format("%.2f", price)

@@ -46,8 +46,6 @@ public class Secao08Exercicio02 {
                 employee.name, employee.netSalary());
 
         sc.close();
-
-
     }
 
     public static double readDouble(Scanner sc) {
@@ -63,7 +61,7 @@ public class Secao08Exercicio02 {
                 System.out.println("Invalid numeric value. Type again:");
                 sc.nextLine();
             }
-            finally { System.out.println("Parabéns"); }
+            // finally { System.out.println("Alright!"); }
         }
         return d;
     }

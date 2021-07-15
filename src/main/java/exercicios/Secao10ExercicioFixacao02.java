@@ -28,7 +28,7 @@ public class Secao10ExercicioFixacao02 {
 
         System.out.print("How many employees will be registered? ");
         Integer number = scanner.nextInt();
-        // ainda não entendi quando devo ou não usar as wrapper classes :/
+        // Dúvida: ainda não entendi quando devo ou não usar as wrapper classes :/
 
         List<Employee> employees = new ArrayList<>();
         Employee employee;
@@ -97,15 +97,20 @@ public class Secao10ExercicioFixacao02 {
              employees) {
             System.out.println(instance);
         }
-        // DANI ::: como a lista employees foi atualizada sendo que criei uma lista paralela emp para fazer a lambda e atualizar o salario?
-        // emp.salaryIncrease(percentage);
-        // em tese, essa lista emp não está conversando com employees... como que o foreach no final imprimiu employees atualizada??
+
+        /*
+        Dúvida: ::: como a lista employees foi atualizada sendo que criei uma lista
+        paralela emp para fazer a lambda e atualizar o salario?
+        emp.salaryIncrease(percentage);
+        em tese, essa lista emp não está conversando com employees...
+        como o foreach no final imprimiu a lista employees atualizada??
+        */
 
         scanner.close();
     }
 
     /*
-    // PART OF SOLUTION 1; UNCOMMENT IN ORDER TO MAKE SOLUTION #1 WORK
+    // PART OF SOLUTION 1; UNCOMMENT IN ORDER TO MAKE SOLUTION #1 TO WORK
     public static Integer position(List<Employee> employees, int id) {
         for (int i=0; i < employees.size(); i++) {
             if (employees.get(i).getId() == id) {
@@ -117,6 +122,7 @@ public class Secao10ExercicioFixacao02 {
 
     public static boolean hasID(List<Employee> list, int id) {
         Employee employee = list.stream().filter(x -> x.getId().equals(id)).findFirst().orElse(null);
-        return employee != null; // returns "true" if the lambda expression finds an existing employee's id :)
+        return employee != null;
+        // returns "true" if the lambda expression finds an existing employee's id :)
     }
  }

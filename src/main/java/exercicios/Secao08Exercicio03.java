@@ -26,11 +26,13 @@ public class Secao08Exercicio03 {
         System.out.printf(
                 "Type (separated by a single space) %s's grades from trimesters 1, 2, and 3, respectively: ",
                 student.name);
+
         student.gradeT1 = sc.nextDouble();
         student.gradeT2 = sc.nextDouble();
         student.gradeT3 = sc.nextDouble();
 
-        System.out.printf("%s%n %.2f%n %.2f%n %.2f%n", student.name, student.gradeT1, student.gradeT2, student.gradeT3);
+        System.out.printf("%s%n %.2f%n %.2f%n %.2f%n",
+                student.name, student.gradeT1, student.gradeT2, student.gradeT3);
 
         double finalGrade = student.calculateGrade();
 

@@ -7,9 +7,7 @@ public class AprendendoForeach {
         String[] vect = new String[] {"Maria", "Bob", "Alex"};
 
         int x = 10;
-        double[] vect2 = new double[x];
-
-
+        // double[] vect2 = new double[x];
 
         // for normal
         for (int i=0; i< vect.length; ++i) {
@@ -17,7 +15,8 @@ public class AprendendoForeach {
         }
 
         // foreach ou Enhanced For como diz o IntelliJ
-        for (String obj : vect) {  // Leia-se: "para cada elemento obj do tipo String contido no vetor vect, faça:"
+        for (String obj : vect) {
+            // Leia-se: "para cada elemento obj do tipo String contido no vetor vect, faça:"
             System.out.println(obj);
         }
     }

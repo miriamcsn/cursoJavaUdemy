@@ -15,9 +15,7 @@ public class AprendendoSwitchDoWhile {
         String dia = "";
 
         do {
-
             switch (x) {
-
                 case 1: dia = "domingo"; break;
 
                 case 2:	dia = "segunda"; break;
@@ -33,7 +31,6 @@ public class AprendendoSwitchDoWhile {
                 case 7:	dia = "sabado"; break;
 
                 default: dia = "valor invalido"; break;
-
             }
 
             System.out.println("Dia da semana: " + dia);
@@ -42,7 +39,5 @@ public class AprendendoSwitchDoWhile {
         } while (x != 0);
 
         sc.close();
-
     }
-
 }

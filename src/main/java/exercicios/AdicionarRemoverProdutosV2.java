@@ -19,20 +19,15 @@ public class AdicionarRemoverProdutosV2 {
         System.out.print("Price: ");
         product.setPrice(sc.nextDouble());
 
-//        System.out.print("Quantity in stock: ");
-//        product.quantity = sc.nextInt();
-
-        //System.out.println(product.getClass());
-        //System.out.println(product.hashCode());
         System.out.println();
-        //System.out.println(product.name + ", " + product.price + ", " + product.quantity);
-        //System.out.println("Product data: " + product.toString());
-        System.out.println("Product data: " + product);
+         System.out.println("Product data: " + product);
 
-        // OBS: quando a gente coloca o objeto sozinho (product) sozinho,
-        // o compilador já saca que vc está num contexto de println e chama
-        // automaticamente o método toString(), que fica implícito.
-        // então a linha acima é igual a fazer product.toString() =)
+/*
+        OBS: quando a gente coloca o objeto sozinho (product),
+        o compilador já saca que vc está num contexto de println e chama
+        automaticamente o método toString(), que fica implícito.
+        então a linha acima é igual a fazer product.toString()   =)
+*/
 
         System.out.println();
         System.out.println("Enter the number of products to be added in stock: ");

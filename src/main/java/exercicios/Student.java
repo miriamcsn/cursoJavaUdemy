@@ -8,8 +8,6 @@ public class Student {
     double gradeT1, gradeT2, gradeT3;
 
     double finalGrade;
-    String status;
-    double missingPoints;
 
     public double calculateGrade() {
         return finalGrade = this.gradeT1 + this.gradeT2 + this.gradeT3;

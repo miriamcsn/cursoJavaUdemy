@@ -6,7 +6,6 @@ public class EntradaDadosLeitura {
 
     public static void main(String[] args) {
 
-
 		/*
 
 		Scanner sc1 = new Scanner(System.in);
@@ -151,12 +150,10 @@ public class EntradaDadosLeitura {
         System.out.println(ss2);
         System.out.println(ss3);
 
-
         // ...
 
         System.out.println("é isso aí :)");
 
         sc8.close();
-
     }
 }

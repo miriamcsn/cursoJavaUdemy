@@ -25,7 +25,7 @@ public class AprendendoVetores02 {
 
         double sum = 0.0;
         for (int i = 0; i < vector.length; i++) {
-            scanner.nextLine(); // consumindo a quebra de linha que ficou pendende do nextint anterior
+            scanner.nextLine(); // consumindo a quebra de linha que ficou pendende do nextint
 
             System.out.printf("Product nº %d: ", i);
             System.out.print("Type the product's name: ");
@@ -40,7 +40,9 @@ public class AprendendoVetores02 {
             sum += vector[i].getPrice();
         }
         double avg = sum / vector.length;
-        System.out.printf("The sum of all product's prices typed is %.2f and the average is %.2f.%n", sum, avg);
+        System.out.printf(
+                "The sum of all product's prices typed is %.2f and the average is %.2f.%n",
+                sum, avg);
         scanner.close();
     }
 }

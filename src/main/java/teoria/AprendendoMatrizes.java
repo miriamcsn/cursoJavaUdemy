@@ -18,7 +18,12 @@ public class AprendendoMatrizes {
         Integer count = 0;
 
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {  // cada linha da matriz é um vetor. O número de posicoes do vetor é o numero de colunas da sua matriz, que esta sendo obtido pelo matrix[i].length
+            for (int j = 0; j < matrix[i].length; j++) {
+/*
+                cada linha da matriz é um vetor.
+                O número de posicoes do vetor é o numero de colunas da sua matriz,
+                que esta sendo obtido pelo matrix[i].length
+*/
                 System.out.printf("Line %d, column %d. Type the value you want to add: ", i, j);
                 matrix[i][j] = scanner.nextInt();
                 if (matrix[i][j] < 0) count++;

@@ -11,7 +11,7 @@ public class BankAccount {
     public BankAccount(int number, String holder, double initialDeposit) {
         this.number = number;
         this.holder = holder;
-        deposit(initialDeposit);
+        deposit(initialDeposit);  // encapsulamento
     }
 
     public BankAccount(int number, String holder) {
@@ -49,6 +49,7 @@ public class BankAccount {
         balance -= withdraw + 5;  // taxa de 5 reais toda vez que fizer um saque
     }
 
+    @Override
     public String toString() {
         return 	"Account: "
                 + number

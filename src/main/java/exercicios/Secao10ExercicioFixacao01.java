@@ -18,7 +18,7 @@ public class Secao10ExercicioFixacao01 {
         Student[] students = new Student[10];
 
         for (int i=1; i<=n; i++) {
-            scanner.nextLine(); // consumindo a quebra de linha que ficou pendende do nextint anterior
+            scanner.nextLine(); // consumindo a quebra de linha que ficou pendende do nextint
 
             System.out.printf("%nRent #%d%n", i);
 

@@ -19,7 +19,9 @@ public class AprendendoVetores01 {
         for (int i=0; i<n; i++) {
             System.out.printf("Type the height nº %d: ", i);
             vector[i] = scanner.nextDouble();
-            // se eu digito 1.65 (com ponto) dá Execution Failed... só funciona com vírgula. Por quê?
+            // Dúvida: se eu digito 1.65 (com ponto) dá Execution Failed...
+            // só funciona com vírgula. Por quê?
+
             System.out.printf("Vector in position %d is %.2f.%n", i, vector[i]);
             sum += vector[i];
         }

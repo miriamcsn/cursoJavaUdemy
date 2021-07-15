@@ -20,7 +20,6 @@ public class AprendendoFuncoesMetodos {
 
 
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Digite três valores inteiros: ");
 
         int a = sc.nextInt();
@@ -32,11 +31,9 @@ public class AprendendoFuncoesMetodos {
         exibeResultado(maior);
 
         sc.close();
-
     }
 
     public static int maior(int x, int y, int z) {  // retorna um int
-
         int maiorNumero;
 
         if (x>y && x>z)	maiorNumero = x;
@@ -44,13 +41,9 @@ public class AprendendoFuncoesMetodos {
         else maiorNumero = z;
 
         return maiorNumero;
-
     }
 
     public static void exibeResultado(int valor) {  // void = função sem retorno
-
         System.out.println("O maior valor é: " + valor);
-
     }
-
 }

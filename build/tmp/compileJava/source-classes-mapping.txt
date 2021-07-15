@@ -34,8 +34,8 @@ exercicios/AdicionarRemoverProdutos.java
  exercicios.AdicionarRemoverProdutos
 exercicios/entities/Student.java
  exercicios.entities.Student
-teoria/AprendendoDatasCalendarSimpleDateFormat.java
- teoria.AprendendoDatasCalendarSimpleDateFormat
+teoria/AprendendoLocalDate.java
+ teoria.AprendendoLocalDate
 teoria/AprendendoVetores02.java
  teoria.AprendendoVetores02
 exercicios/Secao10ExercicioFixacao02.java
@@ -76,5 +76,7 @@ teoria/Calculator.java
  teoria.Calculator
 teoria/entities/Product.java
  teoria.entities.Product
-teoria/AprendendoLocalDate.java
- teoria.AprendendoLocalDate
+teoria/AprendendoDatasCalendarSimpleDateFormat.java
+ teoria.AprendendoDatasCalendarSimpleDateFormat
+teoria/AprendendoEnum.java
+ teoria.AprendendoEnum
