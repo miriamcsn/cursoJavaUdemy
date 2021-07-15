@@ -1,0 +1,80 @@
+exercicios/Student.java
+ exercicios.Student
+teoria/AprendendoForeach.java
+ teoria.AprendendoForeach
+teoria/AprendendoMetodosEstaticosV2.java
+ teoria.AprendendoMetodosEstaticosV2
+teoria/AprendendoSwitchDoWhile.java
+ teoria.AprendendoSwitchDoWhile
+exercicios/Product.java
+ exercicios.Product
+teoria/AprendendoVetores01.java
+ teoria.AprendendoVetores01
+teoria/FuncoesMatematicas.java
+ teoria.FuncoesMatematicas
+exercicios/ProductV3.java
+ exercicios.ProductV3
+exercicios/Secao08Exercicio02.java
+ exercicios.Secao08Exercicio02
+exercicios/AdicionarRemoverProdutosV2.java
+ exercicios.AdicionarRemoverProdutosV2
+teoria/AprendendoListas.java
+ teoria.AprendendoListas
+teoria/AprendendoFor.java
+ teoria.AprendendoFor
+exercicios/Secao08Exercicio04.java
+ exercicios.Secao08Exercicio04
+exercicios/Employee.java
+ exercicios.Employee
+teoria/AprendendoMatrizes.java
+ teoria.AprendendoMatrizes
+teoria/ManipulandoStrings.java
+ teoria.ManipulandoStrings
+exercicios/AdicionarRemoverProdutos.java
+ exercicios.AdicionarRemoverProdutos
+exercicios/entities/Student.java
+ exercicios.entities.Student
+teoria/AprendendoDatasCalendarSimpleDateFormat.java
+ teoria.AprendendoDatasCalendarSimpleDateFormat
+teoria/AprendendoVetores02.java
+ teoria.AprendendoVetores02
+exercicios/Secao10ExercicioFixacao02.java
+ exercicios.Secao10ExercicioFixacao02
+teoria/AprendendoMetodosEstaticosV3.java
+ teoria.AprendendoMetodosEstaticosV3
+exercicios/Secao08Exercicio03.java
+ exercicios.Secao08Exercicio03
+teoria/AprendendoProcessamentoDados.java
+ teoria.AprendendoProcessamentoDados
+exercicios/CurrencyConverter.java
+ exercicios.CurrencyConverter
+exercicios/Secao09ExercicioFixacao01.java
+ exercicios.Secao09ExercicioFixacao01
+exercicios/Secao10ExercicioFixacao03.java
+ exercicios.Secao10ExercicioFixacao03
+teoria/EntradaDadosLeitura.java
+ teoria.EntradaDadosLeitura
+teoria/AprendendoWhile.java
+ teoria.AprendendoWhile
+teoria/AprendendoMetodosEstaticosV1.java
+ teoria.AprendendoMetodosEstaticosV1
+exercicios/Secao10ExercicioFixacao01.java
+ exercicios.Secao10ExercicioFixacao01
+exercicios/util/BankAccount.java
+ exercicios.util.BankAccount
+exercicios/entities/Employee.java
+ exercicios.entities.Employee
+teoria/AprendendoDoWhile.java
+ teoria.AprendendoDoWhile
+teoria/AprendendoFuncoesMetodos.java
+ teoria.AprendendoFuncoesMetodos
+teoria/CalculatorV3.java
+ teoria.CalculatorV3
+exercicios/ProductV2.java
+ exercicios.ProductV2
+teoria/Calculator.java
+ teoria.Calculator
+teoria/entities/Product.java
+ teoria.entities.Product
+teoria/AprendendoLocalDate.java
+ teoria.AprendendoLocalDate
