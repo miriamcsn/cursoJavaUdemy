@@ -2,10 +2,8 @@ package exercicios;
 
 import exercicios.entities.Employee;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Secao10ExercicioFixacao02 {
 
@@ -28,10 +26,8 @@ public class Secao10ExercicioFixacao02 {
 
         System.out.print("How many employees will be registered? ");
         Integer number = scanner.nextInt();
-        // Dúvida: ainda não entendi quando devo ou não usar as wrapper classes :/
 
         List<Employee> employees = new ArrayList<>();
-        Employee employee;
 
         for (int i = 1; i <= number; i++) {
 
@@ -52,11 +48,20 @@ public class Secao10ExercicioFixacao02 {
             String name = scanner.nextLine();
 
             System.out.print("Salary: ");
-            Double salary = scanner.nextDouble();
+            Double salary = readDouble(scanner);
             // idem aqui pras wrapper classes
 
-            employee = new Employee(name, id, salary);
-            employees.add(employee);
+            Employee emp = new Employee(name, id, salary);
+/*
+            // aqui estou criando um objeto da classe Employee, recebendo os parâmetros name, id e salary.
+            // esse objeto terá um endereço de memória.
+            // a variável emp, que é da classe (ou tipo) Employee, apontará para o endereço de memória
+            // do objeto recem-criado.
+*/
+            employees.add(emp);
+
+            // essa lista estoca as variáveis que apontam para os endereços de memória onde os objetos
+            // do tipo Employee foram criados.
 
         }
 
@@ -73,20 +78,42 @@ public class Secao10ExercicioFixacao02 {
             System.out.println("This ID does not exist.");
         } else {
             System.out.println("Enter the percentage: ");
-            Double percentage = scanner.nextDouble();
+            Double percentage = readDouble(scanner);
             employees.get(pos).salaryIncrease(percentage);
         }
 */
 
         // SOLUTION 2 - using lambda expression ("predicado" in portuguese)
 
-        Employee emp = employees.stream().filter(x -> x.getId().equals(idSalary)).findFirst().orElse(null);
+        Employee emp = employees.stream()
+                .filter(x -> x.getId().equals(idSalary))
+                .findFirst()
+                .orElse(null);
+        // nessa linha, estou criando uma variável emp do tipo Employee que referencia (aponta para) um objeto
+        // existente que tenha o mesmo id que digitei (idSalary); caso não encontre, recebe o valor null
+        // só se cria objeto com new (instanciar) ou com Factory Methods! Isso que criei aí em cima é uma VARIÁVEL
+
+        // o predicate (predicado) é o que está depois da setinha; é uma expressão que retorna true or false
+
+/*
+        List<Employee> employeeList = employees.stream()
+                .filter(x -> x.getName().equals("Daniel"))
+                .sorted(Comparator.comparingInt(Employee::getId))
+                .collect(Collectors.toList());
+*/
+
+/*
+        List<String> names = employees.stream()
+                .map(x -> x.getName())
+                .collect(Collectors.toList());
+        // manipulei a lista para extrair os nomes de todos os funcionários
+*/
 
         if (emp == null) {
             System.out.println("This ID does not exist.");
         } else {
             System.out.print("Enter the percentage: ");
-            Double percentage = scanner.nextDouble();
+            Double percentage = readDouble(scanner);
             emp.salaryIncrease(percentage);
         }
 
@@ -97,14 +124,6 @@ public class Secao10ExercicioFixacao02 {
              employees) {
             System.out.println(instance);
         }
-
-        /*
-        Dúvida: ::: como a lista employees foi atualizada sendo que criei uma lista
-        paralela emp para fazer a lambda e atualizar o salario?
-        emp.salaryIncrease(percentage);
-        em tese, essa lista emp não está conversando com employees...
-        como o foreach no final imprimiu a lista employees atualizada??
-        */
 
         scanner.close();
     }
@@ -120,8 +139,25 @@ public class Secao10ExercicioFixacao02 {
         return null;
     }*/
 
+    public static double readDouble(Scanner sc) {
+        double d = 0d;
+        while (d == 0d) {
+            try {
+                d = sc.nextDouble();
+            }
+            catch (InputMismatchException ex) {
+                System.out.print("Invalid numeric value. Type again: ");
+                sc.nextLine();
+            }
+        }
+        return d;
+    }
+
     public static boolean hasID(List<Employee> list, int id) {
-        Employee employee = list.stream().filter(x -> x.getId().equals(id)).findFirst().orElse(null);
+        Employee employee = list.stream()
+                .filter(x -> x.getId().equals(id))
+                .findFirst()
+                .orElse(null);
         return employee != null;
         // returns "true" if the lambda expression finds an existing employee's id :)
     }

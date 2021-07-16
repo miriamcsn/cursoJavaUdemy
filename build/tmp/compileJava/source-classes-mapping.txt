@@ -8,8 +8,8 @@ teoria/AprendendoSwitchDoWhile.java
  teoria.AprendendoSwitchDoWhile
 exercicios/Product.java
  exercicios.Product
-teoria/AprendendoVetores01.java
- teoria.AprendendoVetores01
+exercicios/Secao09ExercicioFixacao01.java
+ exercicios.Secao09ExercicioFixacao01
 teoria/FuncoesMatematicas.java
  teoria.FuncoesMatematicas
 exercicios/ProductV3.java
@@ -34,12 +34,14 @@ exercicios/AdicionarRemoverProdutos.java
  exercicios.AdicionarRemoverProdutos
 exercicios/entities/Student.java
  exercicios.entities.Student
-teoria/AprendendoLocalDate.java
- teoria.AprendendoLocalDate
-teoria/AprendendoVetores02.java
- teoria.AprendendoVetores02
+teoria/AprendendoDatasCalendarSimpleDateFormat.java
+ teoria.AprendendoDatasCalendarSimpleDateFormat
 exercicios/Secao10ExercicioFixacao02.java
  exercicios.Secao10ExercicioFixacao02
+teoria/entities/Product.java
+ teoria.entities.Product
+teoria/Calculator.java
+ teoria.Calculator
 teoria/AprendendoMetodosEstaticosV3.java
  teoria.AprendendoMetodosEstaticosV3
 exercicios/Secao08Exercicio03.java
@@ -48,8 +50,8 @@ teoria/AprendendoProcessamentoDados.java
  teoria.AprendendoProcessamentoDados
 exercicios/CurrencyConverter.java
  exercicios.CurrencyConverter
-exercicios/Secao09ExercicioFixacao01.java
- exercicios.Secao09ExercicioFixacao01
+teoria/AprendendoLocalDate.java
+ teoria.AprendendoLocalDate
 exercicios/Secao10ExercicioFixacao03.java
  exercicios.Secao10ExercicioFixacao03
 teoria/EntradaDadosLeitura.java
@@ -72,11 +74,13 @@ teoria/CalculatorV3.java
  teoria.CalculatorV3
 exercicios/ProductV2.java
  exercicios.ProductV2
-teoria/Calculator.java
- teoria.Calculator
-teoria/entities/Product.java
- teoria.entities.Product
-teoria/AprendendoDatasCalendarSimpleDateFormat.java
- teoria.AprendendoDatasCalendarSimpleDateFormat
-teoria/AprendendoEnum.java
- teoria.AprendendoEnum
+teoria/AprendendoVetores01.java
+ teoria.AprendendoVetores01
+teoria/AprendendoVetores02.java
+ teoria.AprendendoVetores02
+teoria/entities/enums/OrderStatus.java
+ teoria.entities.enums.OrderStatus
+teoria/entities/Order.java
+ teoria.entities.Order
+teoria/application/AprendendoEnum.java
+ teoria.application.AprendendoEnum

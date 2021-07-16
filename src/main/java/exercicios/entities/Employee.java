@@ -8,7 +8,6 @@ public class Employee {
     private final int id;
     private double salary;
 
-
     public Employee(String name, int id, double salary) {
         this.name = name;
         this.id = id;

@@ -2,6 +2,7 @@ package teoria;
 
 import teoria.entities.Product;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -32,7 +33,7 @@ public class AprendendoVetores02 {
             String name = scanner.nextLine();
 
             System.out.print("Type the product's price: ");
-            double price = scanner.nextDouble();
+            double price = readDouble(scanner);
 
             vector[i] = new Product(name, price);
 
@@ -45,4 +46,19 @@ public class AprendendoVetores02 {
                 sum, avg);
         scanner.close();
     }
+
+    public static double readDouble(Scanner sc) {
+        double d = 0d;
+        while (d == 0d) {
+            try {
+                d = sc.nextDouble();
+            }
+            catch (InputMismatchException ex) {
+                System.out.print("Invalid numeric value. Type again: ");
+                sc.nextLine();
+            }
+        }
+        return d;
+    }
+
 }

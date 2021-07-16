@@ -1,5 +1,6 @@
 package teoria;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -17,10 +18,9 @@ public class AprendendoVetores01 {
 
         double sum = 0.0;
         for (int i=0; i<n; i++) {
+
             System.out.printf("Type the height nº %d: ", i);
-            vector[i] = scanner.nextDouble();
-            // Dúvida: se eu digito 1.65 (com ponto) dá Execution Failed...
-            // só funciona com vírgula. Por quê?
+            vector[i] = readDouble(scanner);
 
             System.out.printf("Vector in position %d is %.2f.%n", i, vector[i]);
             sum += vector[i];
@@ -28,5 +28,19 @@ public class AprendendoVetores01 {
         double avg = sum / n;
         System.out.printf("The sum of all heights typed is %.2f and the average is %.2f.%n", sum, avg);
         scanner.close();
+    }
+
+    public static double readDouble(Scanner sc) {
+        double d = 0d;
+        while (d == 0d) {
+            try {
+                d = sc.nextDouble();
+            }
+            catch (InputMismatchException ex) {
+                System.out.print("Invalid numeric value. Type again: ");
+                sc.nextLine();
+            }
+        }
+        return d;
     }
 }
