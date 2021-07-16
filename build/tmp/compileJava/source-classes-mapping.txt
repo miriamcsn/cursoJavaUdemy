@@ -94,3 +94,9 @@ exercicios/Secao13ExercicioFixacao01.java
  exercicios.Secao13ExercicioFixacao01
 exercicios/entities/Worker.java
  exercicios.entities.Worker
+exercicios/entities/WorkerV2.java
+ exercicios.entities.WorkerV2
+exercicios/entities/HourContractV2.java
+ exercicios.entities.HourContractV2
+exercicios/Secao13ExercicioFixacao01V2.java
+ exercicios.Secao13ExercicioFixacao01V2
