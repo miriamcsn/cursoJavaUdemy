@@ -34,10 +34,10 @@ exercicios/AdicionarRemoverProdutos.java
  exercicios.AdicionarRemoverProdutos
 exercicios/entities/Student.java
  exercicios.entities.Student
-teoria/AprendendoDatasCalendarSimpleDateFormat.java
- teoria.AprendendoDatasCalendarSimpleDateFormat
-exercicios/Secao10ExercicioFixacao02.java
- exercicios.Secao10ExercicioFixacao02
+teoria/entities/enums/OrderStatus.java
+ teoria.entities.enums.OrderStatus
+teoria/AprendendoVetores02.java
+ teoria.AprendendoVetores02
 teoria/entities/Product.java
  teoria.entities.Product
 teoria/Calculator.java
@@ -50,8 +50,8 @@ teoria/AprendendoProcessamentoDados.java
  teoria.AprendendoProcessamentoDados
 exercicios/CurrencyConverter.java
  exercicios.CurrencyConverter
-teoria/AprendendoLocalDate.java
- teoria.AprendendoLocalDate
+teoria/entities/Order.java
+ teoria.entities.Order
 exercicios/Secao10ExercicioFixacao03.java
  exercicios.Secao10ExercicioFixacao03
 teoria/EntradaDadosLeitura.java
@@ -64,8 +64,8 @@ exercicios/Secao10ExercicioFixacao01.java
  exercicios.Secao10ExercicioFixacao01
 exercicios/util/BankAccount.java
  exercicios.util.BankAccount
-exercicios/entities/Employee.java
- exercicios.entities.Employee
+teoria/application/AprendendoEnum.java
+ teoria.application.AprendendoEnum
 teoria/AprendendoDoWhile.java
  teoria.AprendendoDoWhile
 teoria/AprendendoFuncoesMetodos.java
@@ -76,11 +76,21 @@ exercicios/ProductV2.java
  exercicios.ProductV2
 teoria/AprendendoVetores01.java
  teoria.AprendendoVetores01
-teoria/AprendendoVetores02.java
- teoria.AprendendoVetores02
-teoria/entities/enums/OrderStatus.java
- teoria.entities.enums.OrderStatus
-teoria/entities/Order.java
- teoria.entities.Order
-teoria/application/AprendendoEnum.java
- teoria.application.AprendendoEnum
+exercicios/entities/HourContract.java
+ exercicios.entities.HourContract
+teoria/AprendendoDatasCalendarSimpleDateFormat.java
+ teoria.AprendendoDatasCalendarSimpleDateFormat
+exercicios/entities/Department.java
+ exercicios.entities.Department
+exercicios/entities/Employee.java
+ exercicios.entities.Employee
+exercicios/Secao10ExercicioFixacao02.java
+ exercicios.Secao10ExercicioFixacao02
+teoria/AprendendoLocalDate.java
+ teoria.AprendendoLocalDate
+exercicios/entities/enums/WorkerLevel.java
+ exercicios.entities.enums.WorkerLevel
+exercicios/Secao13ExercicioFixacao01.java
+ exercicios.Secao13ExercicioFixacao01
+exercicios/entities/Worker.java
+ exercicios.entities.Worker

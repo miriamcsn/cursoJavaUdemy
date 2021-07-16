@@ -39,5 +39,7 @@ public class AprendendoDatasCalendarSimpleDateFormat {
 
         String dataFormatada = pattern.format(agora);
         System.out.println("Data Formatada SimpleDateFormat: " + dataFormatada);
+
+
     }
 }
