@@ -1,71 +1,57 @@
-exercicios/Student.java
- exercicios.Student
 teoria/AprendendoForeach.java
  teoria.AprendendoForeach
-teoria/AprendendoMetodosEstaticosV2.java
- teoria.AprendendoMetodosEstaticosV2
 teoria/AprendendoSwitchDoWhile.java
  teoria.AprendendoSwitchDoWhile
 exercicios/Product.java
  exercicios.Product
-exercicios/Secao09ExercicioFixacao01.java
- exercicios.Secao09ExercicioFixacao01
-teoria/FuncoesMatematicas.java
- teoria.FuncoesMatematicas
+teoria/AprendendoVetores01.java
+ teoria.AprendendoVetores01
 exercicios/ProductV3.java
  exercicios.ProductV3
-exercicios/Secao08Exercicio02.java
- exercicios.Secao08Exercicio02
 exercicios/AdicionarRemoverProdutosV2.java
  exercicios.AdicionarRemoverProdutosV2
-teoria/AprendendoListas.java
- teoria.AprendendoListas
-teoria/AprendendoFor.java
- teoria.AprendendoFor
 exercicios/Secao08Exercicio04.java
  exercicios.Secao08Exercicio04
 exercicios/Employee.java
  exercicios.Employee
 teoria/AprendendoMatrizes.java
  teoria.AprendendoMatrizes
-teoria/ManipulandoStrings.java
- teoria.ManipulandoStrings
 exercicios/AdicionarRemoverProdutos.java
  exercicios.AdicionarRemoverProdutos
-exercicios/entities/Student.java
- exercicios.entities.Student
-teoria/entities/enums/OrderStatus.java
- teoria.entities.enums.OrderStatus
-teoria/AprendendoVetores02.java
- teoria.AprendendoVetores02
-teoria/entities/Product.java
- teoria.entities.Product
-teoria/Calculator.java
- teoria.Calculator
-teoria/AprendendoMetodosEstaticosV3.java
- teoria.AprendendoMetodosEstaticosV3
-exercicios/Secao08Exercicio03.java
- exercicios.Secao08Exercicio03
-teoria/AprendendoProcessamentoDados.java
- teoria.AprendendoProcessamentoDados
-exercicios/CurrencyConverter.java
- exercicios.CurrencyConverter
 teoria/entities/Order.java
  teoria.entities.Order
+exercicios/entities/Student.java
+ exercicios.entities.Student
+exercicios/dio/Desafio06.java
+ exercicios.dio.Desafio06
+teoria/AprendendoVetores02.java
+ teoria.AprendendoVetores02
+exercicios/Secao10ExercicioFixacao02.java
+ exercicios.Secao10ExercicioFixacao02
+teoria/AprendendoProcessamentoDados.java
+ teoria.AprendendoProcessamentoDados
+teoria/AprendendoLocalDate.java
+ teoria.AprendendoLocalDate
+exercicios/Secao13ExercicioFixacao01.java
+ exercicios.Secao13ExercicioFixacao01
 exercicios/Secao10ExercicioFixacao03.java
  exercicios.Secao10ExercicioFixacao03
-teoria/EntradaDadosLeitura.java
- teoria.EntradaDadosLeitura
 teoria/AprendendoWhile.java
  teoria.AprendendoWhile
+exercicios/dio/Desafio07.java
+ exercicios.dio.Desafio07
+exercicios/dio/Desafio04.java
+ exercicios.dio.Desafio04
 teoria/AprendendoMetodosEstaticosV1.java
  teoria.AprendendoMetodosEstaticosV1
-exercicios/Secao10ExercicioFixacao01.java
- exercicios.Secao10ExercicioFixacao01
+exercicios/Secao13ExercicioFixacao01V2.java
+ exercicios.Secao13ExercicioFixacao01V2
+exercicios/dio/Desafio01.java
+ exercicios.dio.Desafio01
 exercicios/util/BankAccount.java
  exercicios.util.BankAccount
-teoria/application/AprendendoEnum.java
- teoria.application.AprendendoEnum
+exercicios/entities/Employee.java
+ exercicios.entities.Employee
 teoria/AprendendoDoWhile.java
  teoria.AprendendoDoWhile
 teoria/AprendendoFuncoesMetodos.java
@@ -74,29 +60,61 @@ teoria/CalculatorV3.java
  teoria.CalculatorV3
 exercicios/ProductV2.java
  exercicios.ProductV2
-teoria/AprendendoVetores01.java
- teoria.AprendendoVetores01
-exercicios/entities/HourContract.java
- exercicios.entities.HourContract
-teoria/AprendendoDatasCalendarSimpleDateFormat.java
- teoria.AprendendoDatasCalendarSimpleDateFormat
-exercicios/entities/Department.java
- exercicios.entities.Department
-exercicios/entities/Employee.java
- exercicios.entities.Employee
-exercicios/Secao10ExercicioFixacao02.java
- exercicios.Secao10ExercicioFixacao02
-teoria/AprendendoLocalDate.java
- teoria.AprendendoLocalDate
-exercicios/entities/enums/WorkerLevel.java
- exercicios.entities.enums.WorkerLevel
-exercicios/Secao13ExercicioFixacao01.java
- exercicios.Secao13ExercicioFixacao01
-exercicios/entities/Worker.java
- exercicios.entities.Worker
+teoria/entities/Product.java
+ teoria.entities.Product
+exercicios/Secao09ExercicioFixacao01.java
+ exercicios.Secao09ExercicioFixacao01
 exercicios/entities/WorkerV2.java
  exercicios.entities.WorkerV2
+exercicios/entities/enums/WorkerLevel.java
+ exercicios.entities.enums.WorkerLevel
+teoria/Calculator.java
+ teoria.Calculator
+teoria/entities/enums/OrderStatus.java
+ teoria.entities.enums.OrderStatus
+exercicios/Student.java
+ exercicios.Student
+teoria/AprendendoMetodosEstaticosV2.java
+ teoria.AprendendoMetodosEstaticosV2
+teoria/FuncoesMatematicas.java
+ teoria.FuncoesMatematicas
+exercicios/Secao08Exercicio02.java
+ exercicios.Secao08Exercicio02
+exercicios/entities/HourContract.java
+ exercicios.entities.HourContract
+teoria/AprendendoListas.java
+ teoria.AprendendoListas
+teoria/AprendendoFor.java
+ teoria.AprendendoFor
+teoria/ManipulandoStrings.java
+ teoria.ManipulandoStrings
+exercicios/dio/Desafio03.java
+ exercicios.dio.Desafio03
+teoria/AprendendoDatasCalendarSimpleDateFormat.java
+ teoria.AprendendoDatasCalendarSimpleDateFormat
+teoria/AprendendoMetodosEstaticosV3.java
+ teoria.AprendendoMetodosEstaticosV3
+exercicios/Secao08Exercicio03.java
+ exercicios.Secao08Exercicio03
+exercicios/dio/Desafio05.java
+ exercicios.dio.Desafio05
+exercicios/CurrencyConverter.java
+ exercicios.CurrencyConverter
+teoria/EntradaDadosLeitura.java
+ teoria.EntradaDadosLeitura
+exercicios/dio/Desafio02.java
+ exercicios.dio.Desafio02
 exercicios/entities/HourContractV2.java
  exercicios.entities.HourContractV2
-exercicios/Secao13ExercicioFixacao01V2.java
- exercicios.Secao13ExercicioFixacao01V2
+exercicios/Secao10ExercicioFixacao01.java
+ exercicios.Secao10ExercicioFixacao01
+exercicios/entities/Department.java
+ exercicios.entities.Department
+teoria/application/AprendendoEnum.java
+ teoria.application.AprendendoEnum
+exercicios/dio/Desafio08.java
+ exercicios.dio.Desafio08
+exercicios/entities/Worker.java
+ exercicios.entities.Worker
+exercicios/dio/Desafio09.java
+ exercicios.dio.Desafio09
