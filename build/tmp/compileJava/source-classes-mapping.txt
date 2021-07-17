@@ -44,8 +44,8 @@ exercicios/dio/Desafio04.java
  exercicios.dio.Desafio04
 teoria/AprendendoMetodosEstaticosV1.java
  teoria.AprendendoMetodosEstaticosV1
-exercicios/Secao13ExercicioFixacao01V2.java
- exercicios.Secao13ExercicioFixacao01V2
+exercicios/dio/Desafio09.java
+ exercicios.dio.Desafio09
 exercicios/dio/Desafio01.java
  exercicios.dio.Desafio01
 exercicios/util/BankAccount.java
@@ -116,5 +116,11 @@ exercicios/dio/Desafio08.java
  exercicios.dio.Desafio08
 exercicios/entities/Worker.java
  exercicios.entities.Worker
-exercicios/dio/Desafio09.java
- exercicios.dio.Desafio09
+exercicios/Secao13ExercicioFixacao01V2.java
+ exercicios.Secao13ExercicioFixacao01V2
+exercicios/entities/Comment.java
+ exercicios.entities.Comment
+exercicios/entities/Post.java
+ exercicios.entities.Post
+exercicios/Secao13ExercicioFixacao02.java
+ exercicios.Secao13ExercicioFixacao02

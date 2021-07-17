@@ -1,5 +1,7 @@
 package teoria;
 
+import teoria.entities.Calculator;
+
 import java.util.Locale;
 import java.util.Scanner;
 
