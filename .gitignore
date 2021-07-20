@@ -8,6 +8,7 @@
 *.ear
 *.nar
 hs_err_pid*
+.gradle
 
 ##############################
 ## Maven
@@ -28,11 +29,17 @@ buildNumber.properties
 ## Gradle
 ##############################
 bin/
+build.gradle
+gradle
+gradlew
+gradlew.bat
+settings.gradle
 build/
-.gradle
-.gradletasknamecache
 gradle-app.setting
 !gradle-wrapper.jar
+.idea
+.gradle
+.gradletasknamecache
 
 ##############################
 ## IntelliJ
@@ -40,6 +47,7 @@ gradle-app.setting
 out/
 .idea/
 .idea_modules/
+.gradle
 *.iml
 *.ipr
 *.iws

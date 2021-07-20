@@ -8,7 +8,7 @@ public class BusinessException extends Exception {
     private static final long serialVersionUID = 2L;
 
     public BusinessException(String msg) {  // isso é um construtor, pois tem o mesmo nome da classe e nao tem retorno
-        super(msg);   // não entendi esse super
+        super(msg);
     }
 
 }
