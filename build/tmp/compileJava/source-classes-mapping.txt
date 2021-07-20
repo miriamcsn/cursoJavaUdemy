@@ -134,19 +134,47 @@ exercicios/s13e03/application/Secao13ExercicioFixacao03.java
  exercicios.s13e03.application.Secao13ExercicioFixacao03
 exercicios/s13e03/entities/Order.java
  exercicios.s13e03.entities.Order
-teoria/entities/SavingsAccount.java
- teoria.entities.SavingsAccount
+exercicios/s14e02/Secao14Exercicio02.java
+ exercicios.s14e02.Secao14Exercicio02
 exercicios/s14e01/Secao14Exercicio01.java
  exercicios.s14e01.Secao14Exercicio01
-teoria/entities/SavingsAccountPlus.java
- teoria.entities.SavingsAccountPlus
-teoria/entities/Account.java
- teoria.entities.Account
+exercicios/s14e02/entities/UsedProduct.java
+ exercicios.s14e02.entities.UsedProduct
+exercicios/s14e02/entities/ImportedProduct.java
+ exercicios.s14e02.entities.ImportedProduct
 exercicios/s14e01/entities/Employee.java
  exercicios.s14e01.entities.Employee
 exercicios/s14e01/entities/OutsourcedEmployee.java
  exercicios.s14e01.entities.OutsourcedEmployee
-teoria/AprendendoHeranca.java
- teoria.AprendendoHeranca
+exercicios/s14e02/entities/Product.java
+ exercicios.s14e02.entities.Product
+teoria/entities/SavingsAccount.java
+ teoria.entities.SavingsAccount
+teoria/entities/SavingsAccountPlus.java
+ teoria.entities.SavingsAccountPlus
+teoria/entities/Account.java
+ teoria.entities.Account
 teoria/entities/BusinessAccount.java
  teoria.entities.BusinessAccount
+exercicios/s14e03/entities/enums/Color.java
+ exercicios.s14e03.entities.enums.Color
+exercicios/s14e03/entities/Shape.java
+ exercicios.s14e03.entities.Shape
+exercicios/s14e03/entities/Rectangle.java
+ exercicios.s14e03.entities.Rectangle
+teoria/AprendendoHeranca.java
+ teoria.AprendendoHeranca
+exercicios/s14e03/entities/Circle.java
+ exercicios.s14e03.entities.Circle
+exercicios/s14e03/Secao14Exercicio03.java
+ exercicios.s14e03.Secao14Exercicio03
+exercicios/s14e04/entities/PessoaFisica.java
+ exercicios.s14e04.entities.PessoaFisica
+exercicios/s14e04/entities/Pessoa.java
+ exercicios.s14e04.entities.Pessoa
+exercicios/s14e04/entities/PessoaJuridica.java
+ exercicios.s14e04.entities.PessoaJuridica
+exercicios/s14e04/Secao14Exercicio04.java
+ exercicios.s14e04.Secao14Exercicio04
+teoria/AprendendoExcecoes.java
+ teoria.AprendendoExcecoes
