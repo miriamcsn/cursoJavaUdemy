@@ -1,5 +1,3 @@
 # cursoJavaUdemy
 
-Curso sobre a linguagem Java - do básico ao avançado
-
-Course about Java language - from basics to advanced programming
+Java programming language course - from basics to advanced
