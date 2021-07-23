@@ -7,6 +7,10 @@ public class AprendendoMatrizes {
 
     public static void main(String[] args) {
 
+
+        int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        System.out.println(numbers.length);
+/*
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
@@ -19,11 +23,13 @@ public class AprendendoMatrizes {
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
+*/
 /*
                 cada linha da matriz é um vetor.
                 O número de posicoes do vetor é o numero de colunas da sua matriz,
                 que esta sendo obtido pelo matrix[i].length
-*/
+*//*
+
                 System.out.printf("Line %d, column %d. Type the value you want to add: ", i, j);
                 matrix[i][j] = scanner.nextInt();
                 if (matrix[i][j] < 0) count++;
@@ -37,5 +43,6 @@ public class AprendendoMatrizes {
         System.out.printf("%nNegative numbers: %d%n", count);
 
         scanner.close();
+*/
     }
 }
