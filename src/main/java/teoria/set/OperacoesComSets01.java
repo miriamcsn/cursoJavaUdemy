@@ -14,17 +14,23 @@ public class OperacoesComSets01 {
         //union
         Set<Integer> c = new TreeSet<>(a);
         // aqui, estou criando um novo conjunto C que será uma cópia do conjunto A
-        c.addAll(b);
+
+        c.addAll(b);  // união: de C com B, sem os repetidos
+
         System.out.println(c);
 
         //intersection
         Set<Integer> d = new TreeSet<>(a);
-        d.retainAll(b); // somente os elementos em comum
+
+        d.retainAll(b); // interseção: somente os elementos em comum
+
         System.out.println(d);
 
         //difference
         Set<Integer> e = new TreeSet<>(a);
-        e.removeAll(b); // remove do conjunto E todos os elementos de B
+
+        e.removeAll(b); // diferença: remove do conjunto E todos os elementos de B
+
         System.out.println(e);
 
     }
