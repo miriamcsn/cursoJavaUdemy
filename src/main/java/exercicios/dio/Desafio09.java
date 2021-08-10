@@ -1,65 +1,35 @@
 package exercicios.dio;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Desafio09 {
 
-    // incompleto... ainda estou aprendendo a como resolvê-lo!
+    public static void main(String args[]) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(String[] args) throws IOException {
-
-        Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
-
+        int quantidadeTartarugas;
         do {
-            int number = readInteger(sc);
-            List<Integer> vels = readString(sc, number);
-            Integer max = checkTurtles(vels);
-            System.out.println(max);
+            quantidadeTartarugas = Integer.parseInt(br.readLine());
+            String tartarugasVelocidades[] = br.readLine().split(" ");
+            int maiorVelocidade = Integer.parseInt(tartarugasVelocidades[0]);
 
-        } while (sc.hasNext());
-    }
+            for (int i = 1; i < quantidadeTartarugas; i++) {
+                int velocidadeCadaTartaruga = Integer.parseInt(tartarugasVelocidades[i]);
 
-
-    public static Integer readInteger(Scanner sc) {
-        Integer d = null;
-        while (d == null || d < 1 || d > 500) {
-            try {
-                System.out.print("Type a valid Integer value: ");
-                d = sc.nextInt();
+                if (velocidadeCadaTartaruga > maiorVelocidade){
+                    maiorVelocidade = velocidadeCadaTartaruga;
+                }
             }
-            catch (InputMismatchException ex) {
-                System.out.println("Invalid Integer value. Type again.");
-                sc.next();
+
+            if (maiorVelocidade < 10) {
+                System.out.println("1");
+            } else if (maiorVelocidade > 10 && maiorVelocidade < 20) {
+                System.out.println("2");
+            } else {
+                System.out.println("3");
             }
-        }
-        return d;
-    }
-
-    public static List<Integer> readString(Scanner sc, int number) {
-
-        List<Integer> vels = new ArrayList<>();
-        int max, min;
-
-        do {
-            sc.next();
-            System.out.printf("Digite %d números separados por espaço:%n", number);
-            // printa mas não deixa eu digitar, já entra na linha 50 e joga uma exceção -- ainda aprendendo a resolver!
-            String reading = sc.nextLine();
-            vels.add(Integer.valueOf(Arrays.toString(reading.split(" "))));
-
-            max = vels.stream().max(Integer::compare).get();
-            min = vels.stream().min(Integer::compare).get();
-
-        } while (vels.size() != number || max > 50 || min < 1);
-
-        return vels;
-    }
-
-    public static Integer checkTurtles(List<Integer> vels) {
-
-        return vels.stream().max(Integer::compare).get();
-
+        } while (br.ready());
     }
 }
