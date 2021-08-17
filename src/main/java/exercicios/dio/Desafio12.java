@@ -1,55 +1,62 @@
 package exercicios.dio;
 
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 
 public class Desafio12 {
 
-    public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
 
-//        System.out.println("Digite o número de repetições: ");
-        int vezes = leitor.nextInt();
-        leitor.nextLine();
 
-        for (int contador = 1; contador <= vezes; contador++) {
 
-//            System.out.println("Digite as duas strings separadas por espaço: ");
+//    class Result {
 
-            StringTokenizer st = new StringTokenizer(leitor.nextLine());
-            String leitura1 = st.nextToken();
-//            System.out.println(leitura1);
-            String leitura2 = st.nextToken();
-//            System.out.println(leitura2);
 
-            char[] vetor1 = new char[leitura1.length()];
-            for (int i = 0; i < leitura1.length(); i++) {
-                vetor1[i] = leitura1.charAt(i);
+        public static void main(String[] args) {
+
+            Scanner sc = new Scanner(System.in);
+
+            int n, k;
+
+            n = sc.nextInt();
+
+            List<Integer> lista = new ArrayList<>();
+
+            for (int i=0; i<n; i++) {
+                lista.add(sc.nextInt());
             }
 
-            char[] vetor2 = new char[leitura2.length()];
-            for (int i = 0; i < leitura2.length(); i++) {
-                vetor2[i] = leitura2.charAt(i);
-            }
+            k = sc.nextInt();
+            findNumber(lista, k);
 
-            String resultado = "";
-
-            for (int i = ((vetor1.length - vetor2.length) + 1); i <= vetor1.length; i++ ) {
-//                System.out.println(i);
-                resultado += String.valueOf(i);
-            }
-
-
-            if (resultado.equals(leitura2)) {
-                System.out.println("encaixa");
-            } else {
-                System.out.println("nao encaixa");
-            }
-
-//            System.out.println(leitura2);
-//            System.out.println(resultado);
+            sc.close();
 
         }
+
+        /*
+         * Complete the 'findNumber' function below.
+         *
+         * The function is expected to return a STRING.
+         * The function accepts following parameters:
+         *  1. INTEGER_ARRAY arr
+         *  2. INTEGER k
+         */
+
+        public static String findNumber(List<Integer> arr, int k) {
+
+            if (arr.contains(k)) { return "YES"; }
+            else { return "NO"; }
+
+        }
+
     }
-}
+//}
