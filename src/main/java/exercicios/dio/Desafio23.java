@@ -1,13 +1,10 @@
 package exercicios.dio;
 
-import java.util.*;
-import java.util.stream.IntStream;
-
 public class Desafio23 {
 
     /*
      * Um festival de rock numa cidade com pessoas metódicas,
-     *  teve a seguinte disposição de pessoas nos guichês para compra de ingressos:
+     * teve a seguinte disposição de pessoas nos guichês para compra de ingressos:
 
      * Guichê 1 -> 1
      * Guichê 2 -> 2 3 4
@@ -25,21 +22,42 @@ public class Desafio23 {
      * */
 
     public static void main(String[] args) {
+        System.out.println(retornaGuicheIngresso(9));
+    }
 
-        for (int i = 1; i <= 10; i++) {
-            int[] arr = IntStream.rangeClosed(i, i + 2).toArray();
-//
-//            for (int a : arr) {
-//                System.out.print(a);
-//            }
-//        }
+    public static Integer retornaGuicheIngresso(Integer ingressoNumero) {
 
-//        System.out.println(retornaGuicheIngresso(26));
+        if (ingressoNumero == 0) {
+            System.out.println("Guichê 0: 0");
+            return 0;
         }
 
-//    public static Integer retornaGuicheIngresso(Integer ingressoNumero) {
-//        return 0;
-//    }
+        if (ingressoNumero == 1) {
+            System.out.println("Guichê 1: 1");
+            return 1;
+        }
 
+        int guiche = 1;
+        int numeroPessoasPorGuiche = 1;
+        int numeroPrevisto = 1;
+        System.out.print("Guichê 1: 1");
+
+        for (int i = 1; i <= ingressoNumero; i++) {
+            while (numeroPessoasPorGuiche != numeroPrevisto) {
+                if (ingressoNumero == i) { return guiche; }
+                numeroPessoasPorGuiche++;
+                i++;
+                System.out.print(i + " ");
+            }
+            if (ingressoNumero == i) { return guiche; }
+            i--;
+            guiche++;
+            numeroPrevisto = numeroPrevisto + 2;
+            numeroPessoasPorGuiche = 0;
+            System.out.println();
+            System.out.print("Guichê " + guiche + ": ");
+        }
+        System.out.println();
+        return guiche;
     }
 }

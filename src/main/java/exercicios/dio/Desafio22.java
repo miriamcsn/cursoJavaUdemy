@@ -1,5 +1,6 @@
 package exercicios.dio;
 
+import java.text.DecimalFormat;
 import java.util.*;
 
 public class Desafio22 { // n fiz
@@ -23,9 +24,9 @@ public class Desafio22 { // n fiz
 
     public static String tamanhoSetorBusca(Integer areaMaior,Integer areaMenor) {
 
+        double areaBusca = (areaMaior - areaMenor) / 8.0;
 
-
-        return "Teste";
+        return new DecimalFormat("#.###").format(areaBusca);
 
     }
 }
