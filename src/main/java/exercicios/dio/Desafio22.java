@@ -3,7 +3,7 @@ package exercicios.dio;
 import java.text.DecimalFormat;
 import java.util.*;
 
-public class Desafio22 { // n fiz
+public class Desafio22 {
 
     /*
      * Um festival de rock é formado de um palco único, e a área do show (que é um círculo)
