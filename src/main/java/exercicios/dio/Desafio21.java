@@ -1,6 +1,7 @@
 package exercicios.dio;
 
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.*;
 
 public class Desafio21 {
@@ -77,14 +78,20 @@ public class Desafio21 {
         if (semitons < 0) {
             notaMusical = notasDecrescentes[posicaoNotaMusical];
         }
-        String formattedFreq = new DecimalFormat("#.####").format(freq);
 
-        if (formattedFreq.contains(".")) {
-            String[] splitted = formattedFreq.split("\\.");
-            String decimais = (splitted[1] + "000").substring(0, 4);
-            formattedFreq = String.join(".", splitted[0], decimais);
-        }
+        NumberFormat nf = NumberFormat.getInstance();
+        nf.setMaximumFractionDigits(4);
+        nf.setMinimumFractionDigits(Math.floor(freq) == freq ? 0 : 4);
+        return Arrays.asList((nf.format(freq)), notaMusical);
 
-        return Arrays.asList(formattedFreq, notaMusical);
+//        String formattedFreq = new DecimalFormat("#.####").format(freq);
+//
+//        if (formattedFreq.contains(".")) {
+//            String[] splitted = formattedFreq.split("\\.");
+//            String decimais = (splitted[1] + "000").substring(0, 4);
+//            formattedFreq = String.join(".", splitted[0], decimais);
+//        }
+//
+//        return Arrays.asList(formattedFreq, notaMusical);
     }
 }
