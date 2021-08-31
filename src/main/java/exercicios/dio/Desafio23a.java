@@ -1,6 +1,6 @@
 package exercicios.dio;
 
-public class Desafio23 {
+public class Desafio23a {
 
     /*
      * Um festival de rock numa cidade com pessoas metódicas,
@@ -31,31 +31,35 @@ public class Desafio23 {
             System.out.println("Guichê 0: 0");
             return 0;
         }
-
         if (ingressoNumero == 1) {
             System.out.println("Guichê 1: 1");
             return 1;
         }
 
-        int guiche = 1;
-        int numeroPessoasPorGuiche = 1;
-        int numeroPrevisto = 1;
-        System.out.print("Guichê 1: 1");
+        int guiche = 0;
+        int pessoasGuicheAtual = 0;
+        int pessoasGuicheAnterior = 0;
 
         for (int i = 1; i <= ingressoNumero; i++) {
-            while (numeroPessoasPorGuiche != numeroPrevisto) {
-                if (ingressoNumero == i) { return guiche; }
-                numeroPessoasPorGuiche++;
-                i++;
-                System.out.print(i + " ");
+
+            if (i == 1) {
+                System.out.println("Guichê 1: 1");
+                System.out.print("Guichê 2: ");
+                pessoasGuicheAnterior = 1;
+                pessoasGuicheAtual = 0;
+                guiche = 2;
+                continue;
             }
-            if (ingressoNumero == i) { return guiche; }
-            i--;
-            guiche++;
-            numeroPrevisto = numeroPrevisto + 2;
-            numeroPessoasPorGuiche = 0;
-            System.out.println();
-            System.out.print("Guichê " + guiche + ": ");
+
+            if (pessoasGuicheAtual == (pessoasGuicheAnterior + 2)) {
+                guiche++;
+                System.out.println();
+                System.out.print("Guichê " + guiche + ": ");
+                pessoasGuicheAnterior = pessoasGuicheAtual;
+                pessoasGuicheAtual = 0;
+            }
+            pessoasGuicheAtual++;
+            System.out.print(i + " ");
         }
         System.out.println();
         return guiche;
